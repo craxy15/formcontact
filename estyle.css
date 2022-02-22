@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #BBD2C5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #536976, #BBD2C5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #536976, #BBD2C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+header h1{
+    font-size: 50px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin-bottom: -30px;
+}
+header p{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 700px 1fr;
+}
+#survey-form{
+    display: grid;
+    grid-column: 2/3;
+    justify-content: center;
+   font-family: 'Bitter', serif;;
+   background: #232526;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: white;
+   font-size: 25px;
+   margin-bottom: 100px;
+}
+.form-contact-1{
+    width:100%;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+}
+.form-contact{
+    width: 140px;
+    height: 30px;
+    font-size: 17px;
+}
+#dropdown{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+}
+
+.input-radio{
+    margin: 0px 30px;
+}
+
+.input-textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 17px;
+}
+
+.buton{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#submit{
+width: 80%;
+height: 40px; 
+background-color: lawngreen;
+font-size: 20px;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+p{
+    margin-top: 20px;
+}
